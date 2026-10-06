@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",         // Use NodeNext for ESM in Node.js
+    "target": "ESNext",           // Latest JavaScript (ESNext)
+    "types": ["node"],            // Include Node.js type definitions
+
+    "strict": true,               // Enable strict type-checking options
+    "verbatimModuleSyntax": true, // Enforces module syntax exactly as written (important for ESM)
+    "isolatedModules": true,      // Ensures the code can be compiled in isolation (important for ESM)
+    "skipLibCheck": true          // Skips checking of library files for performance
+
+  }
+}
+

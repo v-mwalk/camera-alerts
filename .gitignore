@@ -1,0 +1,6 @@
+.env
+node_modules/
+runtime-data/
+.wwebjs_cache/
+.claude/
+CLAUDE.md
